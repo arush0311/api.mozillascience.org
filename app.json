@@ -6,5 +6,13 @@
   ],
   "scripts": {
     "postdeploy": "python app/manage.py migrate"
+  },
+  "env": {
+    "DJANGO_SECRET_KEY": {
+      "required": true
+    },
+    "DATABASE_URL": {
+      "required": true
+    }
   }
 }
