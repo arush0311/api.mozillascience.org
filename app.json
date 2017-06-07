@@ -5,12 +5,13 @@
     "heroku-postgresql:hobby-dev"
   ],
   "scripts": {
-    "postdeploy": "python app/manage.py migrate"
+    "postdeploy": "sh scripts/postdeploy.sh"
   },
   "env": {
     "DJANGO_SECRET_KEY": {
       "required": true
     },
+    
     "GH_TOKEN": {},
     "DEBUG": {},
     "ALLOWED_HOSTS": {},
