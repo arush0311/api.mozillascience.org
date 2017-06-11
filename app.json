@@ -8,10 +8,10 @@
     "postdeploy": "sh scripts/postdeploy.sh"
   },
   "env": {
+    "DJANGO_ENV": "review",
     "DJANGO_SECRET_KEY": {
-      "required": true
+      "generator": "secret"
     },
-    
     "GH_TOKEN": {},
     "DEBUG": {},
     "ALLOWED_HOSTS": {},
