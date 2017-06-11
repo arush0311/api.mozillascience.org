@@ -6,7 +6,7 @@ superusers = [
     {
         'username': 'superuser',
         'password': 'dummy',
-        'email': 'superuser@science.com'
+        'email': 'superuser@example.com'
     }
 ]
 
