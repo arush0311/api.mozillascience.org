@@ -5,7 +5,7 @@
     "heroku-postgresql:hobby-dev"
   ],
   "scripts": {
-    "pr-postdeploy": "sh scripts/postdeploy.sh"
+    "postdeploy": "sh scripts/postdeploy.sh"
   },
   "env": {
     "DJANGO_ENV": "review",
